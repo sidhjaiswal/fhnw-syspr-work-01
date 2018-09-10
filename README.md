@@ -24,22 +24,27 @@ Auf Ihrem Computer
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-01-tamberg
 
 Auf dem Raspberry Pi
-* $ cd ~
-* $ git clone REPO_URL
-* $ git add FILE
-* $ git commit FILE -m "Fixed all bugs"
-* $ git push
+* Repository klonen<pre>
+    $ cd ~
+    $ git clone REPO_URL</pre>
+* Neue Datei kreieren<pre>
+    $ git add FILE</pre>
+* Änderungen committen<pre>
+    $ git commit FILE -m "Fixed all bugs"</pre>
+* Änderungen hochladen<pre>
+    $ git push</pre>
 
 ### Nano
 Auf dem Raspberry Pi
 * Neue oder bestehende Datei öffnen mit $ nano FILE
-* Editieren
+* Editieren (Achtung, nano hat kein Undo)
 * Speichern mit `CRTL-X` `Y` `RETURN`
 
 ### SSH
 Auf Ihrem Computer
 * Terminal öffnen (Mac) oder `WINDOWS` `R` cmd `RETURN` (Windows)
-* $ ssh pi@raspberrypi.local
+* SSH Session starten mit<pre>
+    $ ssh pi@raspberrypi.local</pre>
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
