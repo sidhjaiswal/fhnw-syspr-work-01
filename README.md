@@ -22,6 +22,11 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Modellieren die [Fussball WM](https://www.fifa.com/worldcup/matches/#knockoutphase) mit Ihrem Tree Typ.
 * Erweitern Sie den Tree Typ für Bäume mit variabler Anzahl Ästen, wie [Darwin's Tree of Life](https://en.wikipedia.org/wiki/%20Tree_of_life_(biology)#/media/File:On_the_Origin_of_Species_diagram.PNG).
 
+### Hands-on, 20':  BLE Pakete
+* Erstellen Sie ein C Struct Typ für BLE Pakete gemäss: https://devzone.nordicsemi.com/f/nordic-q-a/12211/ble-packet-structure in einer neuen Datei my_ble.c
+* Zudem eine C Union, um auf Heart Rate Messwerte zuzugreifen, gemäss: https://www.bluetooth.com/
+specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml
+
 ## Tools
 ### Git
 Auf Ihrem Computer
