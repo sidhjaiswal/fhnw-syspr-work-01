@@ -1,6 +1,6 @@
 # System-Programmierung
-## Hands-on zu Lektion 0
-Für Slides und Code Beispiele, siehe [Lektion 0](https://github.com/tamberg/fhnw-syspr/blob/master/00/README.md)
+## Hands-on zu Lektion 1
+Für Slides und Code Beispiele, siehe [Lektion 1](https://github.com/tamberg/fhnw-syspr/blob/master/01/README.md)
 
 ### Hands-on, 1h: Raspberry Pi
 * Raspberry Pi Setup via USB zum eigenen Computer.
@@ -10,13 +10,8 @@ Für Slides und Code Beispiele, siehe [Lektion 0](https://github.com/tamberg/fhn
 * $ ./hello
 * Fertig? Bitte Nachbarn helfen.
 
-### Hands-on, 1h: GitHub
-* GitHub Account einrichten, falls keiner vorhanden.
-* Git auf Raspberry Pi installieren und konfigurieren.
-* https://github.com/tamberg/fhnw-syspr klonen.
-* Daneben, [Übungs-Repository aus Mail klonen](#git).
-* Code in Übungs-Repo committen, pushen.
-* Keine Mail bekommen? Bitte melden.
+### Hands-on, ?h: Title
+* Step 1
 
 ## Tools
 ### Git
@@ -24,7 +19,7 @@ Auf Ihrem Computer
 * Zu Beginn jeder Lektion wird ein Hands-on Repository Link bekannt gegeben
 * Nachdem Sie das "Assessment" annehmen, bekommen Sie per Email ein Repository
 * Die REPO_URL enthält Ihren GitHub Account USER_NAME und Ihre Klasse 3ia oder 3ib, z.B.<br/>
-            https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-00-tamberg
+            https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-01-tamberg
 
 Auf dem Raspberry Pi
 * $ cd ~
