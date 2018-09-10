@@ -10,6 +10,13 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Erweitern Sie das Programm für unsigned Typen.
 * Tipp: $ gcc FILE.c -M zeigt include Pfade an.
 
+### Hands-on, 20': Argumente lesen
+* Command-Line Argumente als Parameter von main:<pre>
+    int main(int argc, char *argv[]);</pre>
+* Schreiben Sie ein Programm my_args.c, das alle Command-Line Argumente mit Index ausgibt:<pre>
+    $ ./my_args hoi => 0: ./my_args, 1: hoi</pre>
+* Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
+
 ## Tools
 ### Git
 Auf Ihrem Computer
