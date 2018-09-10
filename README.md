@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Hands-on zu Lektion 1
-Für Slides und Code Beispiele, siehe [Lektion 1](https://github.com/tamberg/fhnw-syspr/blob/master/01/README.md)
+Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/master/01/README.md)
 
 ### Hands-on, ?h: Title
 * Step 1
