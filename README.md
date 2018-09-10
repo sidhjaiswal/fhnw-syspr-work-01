@@ -2,6 +2,8 @@
 ## Hands-on zu Lektion 1
 Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/master/01/README.md)
 
+> *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*
+
 ### a) int Wertebereich, 20'
 * Hardware bzw. Compiler-abhängige Konstanten:<pre>
     #include <limits.h></pre>
