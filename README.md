@@ -2,7 +2,7 @@
 ## Hands-on zu Lektion 1
 Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/master/01/README.md)
 
-### Hands-on, 20': int Wertebereich
+### a) Hands-on, 20': int Wertebereich
 * Hardware bzw. Compiler-abhängige Konstanten:<pre>
     #include <limits.h></pre>
 * Schreiben Sie ein Programm my_range.c, das für die Typen char, int, long, short Wertebereiche so ausgibt:<pre>
@@ -10,19 +10,19 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Erweitern Sie das Programm für unsigned Typen.
 * Tipp: $ gcc FILE.c -M zeigt include Pfade an.
 
-### Hands-on, 20': Argumente lesen
+### b) Hands-on, 20': Argumente lesen
 * Command-Line Argumente als Parameter von main:<pre>
     int main(int argc, char *argv[]);</pre>
 * Schreiben Sie ein Programm my_args.c, das alle Command-Line Argumente mit Index ausgibt:<pre>
     $ ./my_args hoi => 0: ./my_args, 1: hoi</pre>
 * Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
 
-### Hands-on, 20': Bäume
+### c) Hands-on, 20': Bäume
 * Erstellen Sie eine Datei my_tree.c mit einem Struct Typ Tree mit Zeigern auf left, right vom selben Typ.
 * Modellieren die [Fussball WM](https://www.fifa.com/worldcup/matches/#knockoutphase) mit Ihrem Tree Typ.
 * Erweitern Sie den Tree Typ für Bäume mit variabler Anzahl Ästen, wie [Darwin's Tree of Life](https://en.wikipedia.org/wiki/%20Tree_of_life_(biology)#/media/File:On_the_Origin_of_Species_diagram.PNG).
 
-### Hands-on, 20':  BLE Pakete
+### d) Hands-on, 20':  BLE Pakete
 * Erstellen Sie ein C Struct Typ für BLE Pakete gemäss: https://devzone.nordicsemi.com/f/nordic-q-a/12211/ble-packet-structure in einer neuen Datei my_ble.c
 * Zudem eine C Union, um auf Heart Rate Messwerte zuzugreifen, gemäss: https://www.bluetooth.com/
 specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml
