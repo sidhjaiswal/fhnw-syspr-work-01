@@ -4,9 +4,13 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 
 ### Hands-on, 20': int Wertebereich
 * Hardware bzw. Compiler-abhängige Konstanten:
+
     #include <limits.h>
+
 * Schreiben Sie ein Programm my_range.c, das für die Typen char, int, long, short Wertebereiche so ausgibt:
+
     type: TYPE_SIZE byte, TYPE_MIN .. TYPE_MAX
+
 * Erweitern Sie das Programm für unsigned Typen.
 * (Tipp: $ gcc FILE.c -M zeigt include Pfade an.)
 
