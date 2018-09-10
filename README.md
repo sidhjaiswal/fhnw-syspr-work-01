@@ -36,7 +36,7 @@ specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_r
 ## Tools
 ### Git
 Auf Ihrem Computer
-* Zu Beginn jeder Lektion wird ein Hands-on Repository Link bekannt gegeben
+* Zu Beginn jeder Lektion wird der Hands-on Repository Link freigeschaltet
 * Nachdem Sie das "Assessment" annehmen, bekommen Sie per Email ein Repository
 * Die REPO_URL enthält Ihren GitHub Account USER_NAME und Ihre Klasse 3ia oder 3ib, z.B.<br/>
             https://github.com/fhnw-syspr-3ia/fhnw-syspr-work-01-tamberg
