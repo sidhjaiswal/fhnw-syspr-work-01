@@ -3,7 +3,7 @@
 Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/master/01/README.md)
 
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
-> *[Erstellen Sie eine persönliche Kopie, mit diesem GitHub Classroom Link](https://classroom.github.com/a/TODO).*
+> *[Schauen Sie unter Forks, um das Repository für Ihre Klasse zu finden.](https://github.com/tamberg/fhnw-syspr-work-00/network/members)*
 
 ### a) int Wertebereich, 20'
 * Hardware bzw. Compiler-abhängige Konstanten:<pre>
