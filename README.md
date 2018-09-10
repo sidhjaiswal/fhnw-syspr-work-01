@@ -17,6 +17,11 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
     $ ./my_args hoi => 0: ./my_args, 1: hoi</pre>
 * Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
 
+### Hands-on, 20': Bäume
+* Erstellen Sie eine Datei my_tree.c mit einem Struct Typ Tree mit Zeigern auf left, right vom selben Typ.
+* Modellieren die [Fussball WM](https://www.fifa.com/worldcup/matches/#knockoutphase) mit Ihrem Tree Typ.
+* Erweitern Sie den Tree Typ für Bäume mit variabler Anzahl Ästen, wie [Darwin's Tree of Life](https://en.wikipedia.org/wiki/%20Tree_of_life_(biology)#/media/File:On_the_Origin_of_Species_diagram.PNG).
+
 ## Tools
 ### Git
 Auf Ihrem Computer
