@@ -29,6 +29,12 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Erstellen Sie ein C Struct Typ für BLE Pakete gemäss: https://devzone.nordicsemi.com/f/nordic-q-a/12211/ble-packet-structure in einer neuen Datei *my_ble.c*
 * Zudem eine C Union, um auf Heart Rate Messwerte zuzugreifen, gemäss: https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml
 
+### e) Makefile, 15'
+* Erstellen Sie ein *makefile* für Ihren Hands-on Code.
+* Verwenden Sie die Compiler Flags aus dem Script.
+* Korrigieren Sie allfällige neue Kompilationsfehler.
+* Führen Sie *make clean* aus, vor dem *git commit*.
+
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
