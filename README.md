@@ -5,7 +5,7 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) int Wertebereich, 20'
+### a) int Wertebereich, 15'
 * Hardware bzw. Compiler-abhängige Konstanten:<pre>
     #include <limits.h></pre>
 * Schreiben Sie ein Programm *my_range.c*, das für die Typen char, int, long, short Wertebereiche so ausgibt:<pre>
@@ -13,21 +13,20 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Erweitern Sie das Programm für unsigned Typen.
 * Tipp: $ gcc FILE.c -M zeigt include Pfade an.
 
-### b) Argumente lesen, 20'
+### b) Argumente lesen, 15'
 * Command-Line Argumente als Parameter von main:<pre>
     int main(int argc, char *argv[]);</pre>
 * Schreiben Sie ein Programm *my_args.c*, das alle Command-Line Argumente mit Index ausgibt:<pre>
     $ ./my_args hoi => 0: ./my_args, 1: hoi</pre>
 * Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
 
-### c) Bäume, 20'
+### c) Bäume, 15'
 * Erstellen Sie eine Datei *my_tree.c* mit einem Struct Typ Tree mit Zeigern auf *left*, *right* vom selben Typ, und einem String *label* von maximal 32 Byte Länge.
 * Instanzieren Sie einen binären Baum mit 3 Blättern, verwenden Sie dazu die Funktionen malloc und free.
 * Erweitern Sie den Node Typ für Bäume mit variabler Anzahl (N > 2) Ästen, wie [Darwin's Tree of Life](https://en.wikipedia.org/wiki/%20Tree_of_life_(biology)#/media/File:On_the_Origin_of_Species_diagram.PNG).
 
-### d) BLE Pakete, 30'
+### d) BLE Pakete, 15'
 * Erstellen Sie ein C Struct Typ für BLE Pakete gemäss: https://devzone.nordicsemi.com/f/nordic-q-a/12211/ble-packet-structure in einer neuen Datei *my_ble.c*
-* Zudem eine C Union, um auf Heart Rate Messwerte zuzugreifen, gemäss: https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml
 
 ### e) Makefile, 15'
 * Erstellen Sie ein *makefile* für Ihren Hands-on Code.
