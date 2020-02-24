@@ -25,10 +25,7 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 * Instanzieren Sie einen binären Baum mit 3 Blättern, verwenden Sie dazu die Funktionen malloc und free.
 * Erweitern Sie den Node Typ für Bäume mit variabler Anzahl (N > 2) Ästen, wie [Darwin's Tree of Life](https://en.wikipedia.org/wiki/%20Tree_of_life_(biology)#/media/File:On_the_Origin_of_Species_diagram.PNG).
 
-### d) BLE Pakete, 15'
-* Erstellen Sie ein C Struct Typ für BLE Pakete gemäss: https://devzone.nordicsemi.com/f/nordic-q-a/12211/ble-packet-structure in einer neuen Datei *my_ble.c*
-
-### e) Makefile, 15'
+### d) Makefile, 15'
 * Erstellen Sie ein *makefile* für Ihren Hands-on Code.
 * Verwenden Sie die Compiler Flags aus dem Script.
 * Korrigieren Sie allfällige neue Kompilationsfehler.
