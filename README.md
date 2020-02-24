@@ -10,7 +10,7 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
     $ ./my_range
     INT_MIN, INT_MAX</pre>
 * Nutzen Sie aus, dass *INT_MAX + 1 = INT_MIN* gilt.
-* Die Ausgabe eines *int* Werts *i* ist möglich mit *%d*<pre>
+* Die Ausgabe von *int* Werten ist möglich mit *%d*, z.B.<pre>
     printf("%d\n", i); // \n = newline character</pre>
 
 ### b) Argumente lesen, 15'
