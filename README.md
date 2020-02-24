@@ -6,12 +6,12 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
 ### a) int Wertebereich, 15'
-* Hardware bzw. Compiler-abhängige Konstanten:<pre>
-    #include <limits.h></pre>
-* Schreiben Sie ein Programm *my_range.c*, das für die Typen char, int, long, short Wertebereiche so ausgibt:<pre>
-    type: TYPE_SIZE byte, TYPE_MIN .. TYPE_MAX</pre>
-* Erweitern Sie das Programm für unsigned Typen.
-* Tipp: $ gcc FILE.c -M zeigt include Pfade an.
+* Schreiben Sie ein Programm my_range.c, das den Wertebereich für den Typ int ausgibt:<pre>
+    $ ./my_range
+    INT_MIN, INT_MAX</pre>
+* Nutzen Sie aus, dass *INT_MAX + 1 = INT_MIN* gilt.
+* Die Ausgabe eines int Werts i ist möglich mit<pre>
+    printf("%d\n", i); // \n = newline character</pre>
 
 ### b) Argumente lesen, 15'
 * Command-Line Argumente als Parameter von main:<pre>
