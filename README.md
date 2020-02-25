@@ -6,7 +6,7 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
 ### a) int Wertebereich, 15'
-* Schreiben Sie ein Programm *my_range.c*, das den Wertebereich des Typs *int* ausgibt, z.B. mittels *while*:<pre>
+* Schreiben Sie ein Programm *my_range.c*, das den Wertebereich des Typs *int* ausgibt:<pre>
     $ ./my_range
     INT_MIN, INT_MAX</pre>
 * Nutzen Sie aus, dass *INT_MAX + 1 = INT_MIN* gilt.
