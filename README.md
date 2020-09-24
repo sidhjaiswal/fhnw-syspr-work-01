@@ -18,7 +18,7 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
     int main(int argc, char *argv[]);</pre>
 * Schreiben Sie ein Programm *my_args.c*, das seine Argumente, d.h. alle Strings im Array *argv* ausgibt:<pre>
     $ ./my_args hoi …
-    0: ./my_args, 1: hoi …</pre>
+    0: ./my_args, 1: hoi, …</pre>
 * Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
 
 ### c) Bäume, 15'
