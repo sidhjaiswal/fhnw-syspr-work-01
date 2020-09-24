@@ -14,10 +14,11 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
     printf("%d\n", i); // \n = newline character</pre>
 
 ### b) Argumente lesen, 15'
-* Command-Line Argumente als Parameter von main:<pre>
+* Das System übergibt Command-Line Argumente so:<pre>
     int main(int argc, char *argv[]);</pre>
-* Schreiben Sie ein Programm *my_args.c*, das alle Command-Line Argumente mit Index ausgibt:<pre>
-    $ ./my_args hoi => 0: ./my_args, 1: hoi</pre>
+* Schreiben Sie ein Programm *my_args.c*, das seine Argumente, d.h. alle Strings im Array *argv* ausgibt:<pre>
+    $ ./my_args hoi …
+    0: ./my_args, 1: hoi …</pre>
 * Erweitern Sie das Programm, dass es einen Fehler ausgibt, falls ein Argument nicht aus [a-z]* besteht.
 
 ### c) Bäume, 15'
