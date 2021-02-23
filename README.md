@@ -5,11 +5,11 @@ Für Slides und Code Beispiele, siehe [Lektion 1](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) int Wertebereich, 15'
-* Schreiben Sie ein Programm *my_range.c*, das den Wertebereich des Typs *int* ausgibt:<pre>
-    $ ./my_range
-    INT_MIN, INT_MAX</pre>
-* Nutzen Sie aus, dass *INT_MAX + 1 = INT_MIN* gilt.
+### a) sizeof() Operator, 10'
+* Schreiben Sie ein Programm, das die Grössen in Byte der Basistypen *char*, *int*, *long*, *float*, *double* ausgibt.
+* Nutzen Sie dazu den *sizeof()* Operator und *printf()*:<pre>
+    sizeof(char) = 1
+    sizeof(int) = …</pre>
 * Die Ausgabe von *int* Werten ist möglich mit *%d*, z.B.<pre>
     printf("%d\n", i); // \n = newline character</pre>
 
